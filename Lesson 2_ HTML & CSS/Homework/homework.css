@@ -1,0 +1,36 @@
+body {
+    background-image: url('https://images.hdqwalls.com/download/green-blue-violet-gradient-8k-xv-7680x4320.jpg');
+    text-align: center;
+}
+.flex-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    color: rgb(216, 137, 216);
+}
+img {
+    width: 400px;
+}
+.divClass {
+    position: sticky;
+    top: 0;
+}
+#thirdDiv {
+    background-color: #0a0;
+    height: 600px;
+    padding: 50px;
+    width: 500px;
+    border: #a00;
+    border-style: outset;
+    border-width: 10px;
+    position: relative;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+#spanId a {
+    color: yellow
+}
