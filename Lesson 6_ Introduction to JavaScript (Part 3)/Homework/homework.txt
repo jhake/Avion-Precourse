@@ -1,0 +1,2 @@
+* Arrays
+    - Arrays can be thought of as a container of many varaibles. This makes acessing things easier because array elements can be accessed using an index. Also, arrays has many methods that are usesul.
