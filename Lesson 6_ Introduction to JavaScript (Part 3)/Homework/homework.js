@@ -19,7 +19,7 @@ function incrementByOne(arr) {
   // arr is an array of integers  
   // increase each integer by one
   // return the array
-  arr = arr.map(x => x + 1);
+  arr.forEach( (val, index, array) => array[index] += 1)
   return arr;
 }
 
