@@ -1,0 +1,14 @@
+* Variables
+    - They store values. They can be set to a value. And later be read.
+
+* Strings
+    - They are variables that contain text. For example, strings can contain "Hello, World!"
+
+* Functions (arguments, `return`)
+    - A function does something with the arguments they are given with and gives the result as the return value.
+
+* `if` statements
+    - if statements are used to make something conditional in the code. This is used if you don't want the code to run for every scenario.
+
+* Boolean values (`true`, `false`)
+    - Boolean values are logic values. This is usually used by if statements too. Comparing two values returns a boolean value. For example `1 == 2` returns false, abd `1 == 1 returns true.
