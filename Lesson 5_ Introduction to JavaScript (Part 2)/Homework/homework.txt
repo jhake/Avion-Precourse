@@ -1,0 +1,11 @@
+* `for`
+    - This is used for looping code until some conditional statement becomes false.
+    - For example printing values from 1 to 10, the loop will be
+        for(let i = 1; i <= 10; i++){
+            console.log(i);
+        }
+
+* `&&`, `||`, `!`
+    - && is used if you have multiple conditional statements and want them all to be true
+    - || is used if you have multiple conditional statements and want at least one of them to be true
+    - ! is used to invert the boolean value of something (true will become false and vice versa)
