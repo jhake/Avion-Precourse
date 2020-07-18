@@ -3,6 +3,7 @@
 function getBiggest(x, y) {
   // x and y are integers.  Return the larger integer
   // if they are the same return either one
+  return (x > y) ? x : y;
 }
 
 function greeting(language) {
@@ -11,16 +12,28 @@ function greeting(language) {
   // language: 'Mandarin' -> 'Ni Hao!'
   // language: 'Spanish' -> 'Hola!'
   // if language is undefined return 'Hello!'
+  switch(language){
+    case 'German':
+      return 'Guten Tag!';
+    case 'Mandarin':
+      return 'Ni Hao!';
+    case 'Spanish':
+      return 'Hola';
+    case undefined:
+      return 'Hello';
+  }
 }
 
 function isTenOrFive(num) {
   // return true if num is 10 or 5
   // otherwise return false
+  return (num === 5 || num === 10) ? true : false;
 }
 
 function isInRange(num) {
   // return true if num is less than 50 and greater than 20
   // otherwise return false
+  return (num < 50 && num > 20) ? true : false;
 }
 
 function isInteger(num) {
@@ -30,6 +43,7 @@ function isInteger(num) {
   // -10 -> true
   // otherwise return false
   // hint: you can solve this using Math.floor
+  return (Math.floor(num) === num) ? true : false;
 }
 
 function fizzBuzz(num) {
@@ -37,6 +51,10 @@ function fizzBuzz(num) {
   // if num is divisible by 5 return 'buzz'
   // if num is divisible by 3 & 5 return 'fizzbuzz'
   // otherwise return num
+  retVal = ''
+  if(num % 3 == 0) retVal += 'fizz';
+  if(num % 5 == 0) retVal += 'buzz';
+  return (retVal === '') ? num : retVal;
 }
 
 function isPrime(num) {
@@ -45,6 +63,10 @@ function isPrime(num) {
   // hint: a prime number is only evenly divisible by itself and 1
   // hint2: you can solve this using a for loop
   // note: 0 and 1 are NOT considered prime numbers
+  for(let i = 2; i < num; i++){
+    if(num % i === 0) return false;
+  }
+  return num > 1;
 }
 
 
