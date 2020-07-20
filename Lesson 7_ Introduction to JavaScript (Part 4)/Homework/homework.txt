@@ -1,0 +1,10 @@
+* Objects
+    - Everything is an object in JavaScript. An object has properties. It also has methods which are just properties that are functions.
+* Properties
+    - Properties are the values associated with a JavaScript object.
+* Methods
+    - These are just properties that contain function definitions. These can be called normally like any function.
+* for in loop
+    - The for in loop iterates over all the properties of an object.
+* Dot notation vs bracket notation
+    - Dot notation looks like this `object.property` while the bracket notation looks like `object['property']. For me I use the dot notation whenever possible because it is easier to read. However there are many limitations with the dot notation. One of them is it can only contain alphanumeric characters mostly. This is not a problem with the bracket notation.
