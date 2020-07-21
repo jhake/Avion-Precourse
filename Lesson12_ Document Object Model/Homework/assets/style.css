@@ -26,6 +26,10 @@ body {
   padding-right: 15px;
 }
 
+#header img {
+  height: 30px;
+}
+
 #header a {
   padding-left: 15px;
 }
